@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Portfolio • NIRAJ ISHWAR KHARAT</title>
+	<meta name="description" content="Professional portfolio of NIRAJ ISHWAR KHARAT - projects, skills, and contact." />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="styles.css" />
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>💼</text></svg>">
+</head>
+<body>
+	<header class="site-header" id="top">
+		<nav class="navbar container">
+			<a href="#home" class="logo">YN<span>.</span></a>
+			<button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+				<span></span><span></span><span></span>
+			</button>
+			<ul class="nav-links">
+				<li><a href="#home" class="nav-link active">Home</a></li>
+				<li><a href="#projects" class="nav-link">Projects</a></li>
+				<li><a href="#skills" class="nav-link">Skills</a></li>
+				<li><a href="#about" class="nav-link">About</a></li>
+				<li><a href="#contact" class="nav-link">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="scroll-progress" aria-hidden="true"></div>
+	</header>
+
+	<main>
+		<section id="home" class="section hero">
+			<div class="container hero-grid">
+				<div class="hero-content fade-up">
+					<h1>Hi, I’m <span class="gradient">NIRAJ ISHWAR KHARAT</span></h1>
+					<p class="subtitle">I design and build modern, performant web experiences.</p>
+					<div class="cta">
+						<a href="#projects" class="btn btn-primary glow">View Projects</a>
+						<a href="#contact" class="btn btn-outline">Contact Me</a>
+					</div>
+					<p class="typing" aria-live="polite"><span id="typing"></span><span class="caret">|</span></p>
+				</div>
+				<div class="hero-visual fade-in">
+					<div class="profile-circle">
+						<img id="profile-photo" src="assets/IMG_20250606_084245.jpg" alt="Portrait of NIRAJ ISHWAR KHARAT" loading="eager" title="NIRAJ ISHWAR KHARAT" />
+					</div>
+					<canvas id="hero-canvas" aria-label="Decorative 3D animation"></canvas>
+					<noscript>
+						<div class="hero-fallback">Enable JavaScript to see the 3D animation.</div>
+					</noscript>
+				</div>
+			</div>
+		</section>
+
+		<section id="projects" class="section">
+			<div class="container">
+				<h2 class="section-title fade-up">Projects</h2>
+				<div class="projects-grid">
+					<!-- Smart Traffic Optimizer (new) -->
+					<article class="card fade-in">
+						<div class="card-inner">
+							<div class="card-front">
+								<h3>Smart Traffic Optimizer</h3>
+								<p>AI-powered signal timing using live traffic detection to reduce congestion.</p>
+							</div>
+							<div class="card-back">
+								<p>Tech: Python, OpenCV, TensorFlow, Flask</p>
+								<a class="btn btn-sm" href="#" target="_blank" rel="noopener">View</a>
+							</div>
+						</div>
+					</article>
+					<!-- Card 1 -->
+					<article class="card fade-in">
+						<div class="card-inner">
+							<div class="card-front">
+								<h3>Project One</h3>
+								<p>Responsive web app with modern UI.</p>
+							</div>
+							<div class="card-back">
+								<p>Tech: HTML, CSS, JS</p>
+								<a class="btn btn-sm" href="#" target="_blank" rel="noopener">View</a>
+							</div>
+						</div>
+					</article>
+					<!-- Card 2 -->
+					<article class="card fade-in">
+						<div class="card-inner">
+							<div class="card-front">
+								<h3>Project Two</h3>
+								<p>Interactive dashboard with animations.</p>
+							</div>
+							<div class="card-back">
+								<p>Tech: React, GSAP</p>
+								<a class="btn btn-sm" href="#" target="_blank" rel="noopener">View</a>
+							</div>
+						</div>
+					</article>
+					<!-- Card 3 -->
+					<article class="card fade-in">
+						<div class="card-inner">
+							<div class="card-front">
+								<h3>Project Three</h3>
+								<p>High-performance landing page.</p>
+							</div>
+							<div class="card-back">
+								<p>Tech: Svelte, Netlify</p>
+								<a class="btn btn-sm" href="#" target="_blank" rel="noopener">View</a>
+							</div>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section id="skills" class="section alt">
+			<div class="container">
+				<h2 class="section-title fade-up">Skills</h2>
+				<div class="skills-grid">
+					<div class="skill-group fade-in">
+						<h3>Programming</h3>
+						<div class="chips">
+							<span class="chip">C</span>
+							<span class="chip">C++</span>
+							<span class="chip">Java</span>
+							<span class="chip">Python</span>
+							<span class="chip">JavaScript</span>
+						</div>
+					</div>
+					<div class="skill-group fade-in">
+						<h3>Web</h3>
+						<div class="chips">
+							<span class="chip">HTML</span>
+							<span class="chip">CSS</span>
+							<span class="chip">React</span>
+							<span class="chip">Node.js</span>
+							<span class="chip">REST APIs</span>
+						</div>
+					</div>
+					<div class="skill-group fade-in">
+						<h3>CS Fundamentals</h3>
+						<div class="chips">
+							<span class="chip">Data Structures & Algorithms</span>
+							<span class="chip">OOP</span>
+							<span class="chip">DBMS</span>
+							<span class="chip">Operating Systems</span>
+							<span class="chip">Computer Networks</span>
+						</div>
+					</div>
+					<div class="skill-group fade-in">
+						<h3>Tools</h3>
+						<div class="chips">
+							<span class="chip">Git & GitHub</span>
+							<span class="chip">VS Code</span>
+							<span class="chip">Postman</span>
+							<span class="chip">Figma</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="about" class="section alt">
+			<div class="container">
+				<h2 class="section-title fade-up">About Me</h2>
+				<div class="about-grid">
+					<p class="fade-in">I’m a frontend developer focused on crafting clean, accessible interfaces with delightful interactions. I care about performance, scalability, and great UX.</p>
+					<p class="fade-in">Beyond code, I enjoy design systems, motion design, and mentoring developers to build inclusive web experiences.</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact" class="section">
+			<div class="container">
+				<h2 class="section-title fade-up">Contact</h2>
+				<p class="contact-info fade-in">Phone: <a href="tel:7719909485">7719909485</a></p>
+				<p class="contact-info fade-in">Email: <a href="mailto:kharatniraj31@gmail.com">kharatniraj31@gmail.com</a></p>
+				<form id="contact-form" class="contact-form fade-in" novalidate>
+					<div class="field">
+						<label for="name">Name</label>
+						<input id="name" name="name" type="text" placeholder="Your name" required />
+					</div>
+					<div class="field">
+						<label for="email">Email</label>
+						<input id="email" name="email" type="email" placeholder="you@example.com" required />
+					</div>
+					<div class="field">
+						<label for="message">Message</label>
+						<textarea id="message" name="message" rows="5" placeholder="How can I help?" required></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary glow submit-btn">
+						<span class="btn-label">Send Message</span>
+						<span class="btn-loader" aria-hidden="true"></span>
+					</button>
+					<p class="form-status" role="status" aria-live="polite"></p>
+				</form>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container">
+			<p>© <span id="year"></span> NIRAJ ISHWAR KHARAT. All rights reserved.</p>
+		</div>
+	</footer>
+
+	<script src="https://unpkg.com/three@0.159.0/build/three.min.js"></script>
+	<script src="script.js" defer></script>
+</body>
+</html>
